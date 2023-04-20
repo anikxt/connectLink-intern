@@ -1,0 +1,45 @@
+<div class="h-auto p-8 bg-gray-100 flex items-center justify-center">
+  <div class="px-10">
+    <div
+      class="bg-white max-w-xl rounded-2xl px-10 py-8 shadow-lg hover:shadow-2xl transition duration-500"
+    >
+      <div class="mt-4">
+        <h1
+          class="text-lg text-gray-700 font-semibold hover:underline cursor-pointer"
+        >
+          <%= recipe.recipeName %>
+        </h1>
+
+        <div class="mt-4 flex">
+          <p class="font-semibold">Cook Time:&nbsp;</p>
+          <span><%= recipe.cookTime %></span>
+        </div>
+        <div class="mt-4 flex">
+          <p class="font-semibold">Servings:&nbsp;</p>
+          <span><%= recipe.servings %></span>
+        </div>
+        <div class="mt-4">
+          <p class="font-semibold">Ingredients:</p>
+
+          <span class="mt-4 text-md text-gray-600">
+            <%= recipe.ingredients %>
+          </span>
+        </div>
+
+        <div class="mt-4">
+          <p class="font-semibold">Instructions:</p>
+
+          <span class="mt-4 text-md text-gray-600">
+            <%= recipe.instructions %>
+          </span>
+        </div>
+
+        <div class="flex justify-between items-center">
+          <div class="mt-4 flex items-center space-x-4 py-6">
+            <div class="text-md font-semibold">by <%= recipe.username %></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

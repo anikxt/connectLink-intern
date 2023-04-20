@@ -1,0 +1,13 @@
+Assignment Task :
+
+By using NodeJS, Express, MongoDB, and EJS, built any of the following. Authentication or SEO tags are not needed. 
+Code Quality, Design, and working prototypes will be important to focus on. You can use a design framework like bootstrap or JS framework jQuery. 
+Don't use ReactJS, NodeJS, AngularJS, Svelte, or any other similar framework for now.
+
+Problem: CRUD
+Make a recipe website that has a feed like Instagram where a user will be able to publish food-related content and viewers will be able to see the content, 
+and request recipes if they want to.
+
+There are 2 types of content people will publish
+1. Post (Like an Instagram post with a short description and hashtags) with the button "Request Recipe"
+2. Recipe (With details about recipe, ingredients, and steps)
